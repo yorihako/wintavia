@@ -10,7 +10,7 @@ Word・Excel・PowerPoint で開いている文書を、画面の左の細いタ
 - マウスを乗せると文書名が読める幅に広がる（幅はドラッグで調整）
 - お気に入り・履歴から文書を開く、右クリックでフォルダを開く・パスのコピー・まとめて閉じる
 - Win + 矢印キーでのウィンドウの整列に対応
-- コマンド（`office-tabs`）や AI クライアント（MCP）からも、タブバーと同じ操作ができる
+- コマンド（`wintavia-cli`）や AI クライアント（MCP）からも、タブバーと同じ操作ができる
 - 日本語 / 英語、ダーク / ライト
 
 ## 動作環境
@@ -70,7 +70,7 @@ Wintavia shows the Word, Excel and PowerPoint documents you have open in one sli
 - Hover to expand and read full document names (drag to resize)
 - Favorites and history; right-click to open the folder, copy the path or close documents
 - Works with Win + arrow window snapping
-- The same operations are available from the command line (`office-tabs`) and AI clients (MCP)
+- The same operations are available from the command line (`wintavia-cli`) and AI clients (MCP)
 - Japanese / English, dark / light themes
 
 ### Requirements
