@@ -58,6 +58,35 @@ Get-FileHash .\Wintavia-Setup-<版>.exe -Algorithm SHA256
 
 Wintavia はパソコンの中だけで動作し、文書の内容・ファイル名・利用状況などを外部に送信しません。設定・お気に入り・履歴はパソコンの中にだけ保存します。
 
+## AI ツールとつなぐ（上級者向け）
+
+Wintavia には、Claude Code や Codex などの AI ツールから、開いている文書の一覧・内容の読み取り・切り替えなどを行うための **MCP サーバー（`wintavia-mcp`）** と、**コマンド（`wintavia-cli`）** が入っています。使わなくても、タブバーの機能には影響ありません。
+
+### AI ツールに登録する（PowerShell で実行）
+
+```powershell
+# Claude Code
+claude mcp add --transport stdio --scope user wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.exe"
+
+# Codex
+codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.exe"
+```
+
+- Wintavia を起動しておいてください（タブバーを隠していても使えます）。
+- 文書の一覧・読み取り・切り替えは、そのまま使えます。
+- 文書の**書き換え・保存・閉じる**は、タブバーの「設定」→「ほかのツールからの操作」でチェックを入れたときだけ使えます。この許可は AI ツールやコマンドからは変えられません。
+- **AI ツールに読ませた文書の内容は、その AI サービスに送られます。** 会社の文書を扱うときは、社内の決まりを確認してください。Wintavia 自身は外部に送信しません。
+- マクロの実行はできません。
+
+### コマンドで使う
+
+```powershell
+& "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-cli.exe" list          # 開いている文書の一覧
+& "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-cli.exe" list --json   # スクリプト向け
+```
+
+引数なしで実行すると、使い方が表示されます。インストール時に `/addtopath` を付けると、`wintavia-cli` だけで呼べるようになります。
+
 ## 不具合の報告・要望
 
 - [Issues](../../issues) から「不具合の報告」または「要望」を選んで書いてください。**書いた内容は誰でも見られます。** 会社の文書名・ファイルのパス・画面の機密情報は書かないでください。
@@ -108,6 +137,26 @@ Free for personal and commercial use. See [LICENSE.txt](LICENSE.txt) (the Japane
 ### Privacy
 
 Wintavia runs only on your PC and does not send document contents, file names or usage data anywhere.
+
+### Connect AI tools (advanced)
+
+Wintavia includes an **MCP server (`wintavia-mcp`)** and a **command-line tool (`wintavia-cli`)** so that AI tools such as Claude Code and Codex can list, read and switch your open documents. You do not need them to use the tab bar.
+
+```powershell
+# Claude Code
+claude mcp add --transport stdio --scope user wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.exe"
+
+# Codex
+codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.exe"
+```
+
+- Keep Wintavia running (the tab bar may be hidden).
+- Listing, reading and switching documents work right away.
+- **Changing, saving and closing** documents work only after you allow them in the tab bar: Settings > "Access from other tools". AI tools and the command line cannot change this permission.
+- **Document contents read by an AI tool are sent to that AI service.** Check your company's rules before using it with work documents. Wintavia itself sends nothing.
+- Macros cannot be run.
+
+Command line: `& "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-cli.exe" list` (run without arguments for help; install with `/addtopath` to call `wintavia-cli` directly).
 
 ### Bug reports and requests
 
