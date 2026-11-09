@@ -1,0 +1,58 @@
+name: 不具合の報告 / Bug report
+description: Wintavia がうまく動かないときに報告してください。 / Report a problem with Wintavia.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        報告ありがとうございます。**ここに書いた内容は誰でも見られます。** 会社の文書名・ファイルのパス・画面の機密情報・個人情報は書かないでください（画像を添付するときも注意してください）。
+        Wintavia は無償で提供しており、すべての報告にお返事や修正をお約束するものではありません。
+        セキュリティ上の問題は、ここではなく [非公開の報告](https://github.com/yorihako/wintavia/security/advisories/new) からお知らせください。
+
+        Thank you for the report. **Everything here is public.** Do not include company document names, file paths, confidential screenshots or personal information. Wintavia is free and we cannot promise a reply or a fix. Report security issues [privately](https://github.com/yorihako/wintavia/security/advisories/new) instead.
+  - type: textarea
+    id: what
+    attributes:
+      label: 起きたこと / What happened
+      description: どの操作をしたら、どうなったか。 / What you did and what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待していた動き / What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現の手順 / Steps to reproduce
+      placeholder: |
+        1. Word と Excel を開く
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: Wintavia の版 / Wintavia version
+      description: 設定画面の「アプリの情報」に表示されています。 / Shown in Settings > About.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows の版 / Windows version
+      placeholder: "Windows 11 24H2"
+  - type: input
+    id: office
+    attributes:
+      label: Office の版 / Office version
+      placeholder: "Microsoft 365 (バージョン 2510)"
+  - type: textarea
+    id: diag
+    attributes:
+      label: 診断情報（任意） / Diagnostics (optional)
+      description: |
+        `"%LOCALAPPDATA%\Programs\Wintavia\app\Wintavia.exe" --diag --out diag.json` の内容を貼り付けてください（文書名やユーザー名は含みません）。
+        Paste the output of the command above (it contains no document or user names).
+      render: json

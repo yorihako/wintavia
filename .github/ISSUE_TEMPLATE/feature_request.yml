@@ -1,0 +1,23 @@
+name: 要望 / Feature request
+description: あったらよい機能や改善の提案。 / Suggest a feature or an improvement.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご提案ありがとうございます。**ここに書いた内容は誰でも見られます。** 会社の文書名や機密情報は書かないでください。
+        すべてのご要望にお応えできるとは限りません。
+
+        Thank you for the suggestion. **Everything here is public.** Please do not include confidential information. We cannot promise to implement every request.
+  - type: textarea
+    id: problem
+    attributes:
+      label: 困っていること / What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: こうなるとよい / What would you like?
+    validations:
+      required: true

@@ -58,6 +58,12 @@ Get-FileHash .\Wintavia-Setup-<版>.exe -Algorithm SHA256
 
 Wintavia はパソコンの中だけで動作し、文書の内容・ファイル名・利用状況などを外部に送信しません。設定・お気に入り・履歴はパソコンの中にだけ保存します。
 
+## 不具合の報告・要望
+
+- [Issues](../../issues) から「不具合の報告」または「要望」を選んで書いてください。**書いた内容は誰でも見られます。** 会社の文書名・ファイルのパス・画面の機密情報は書かないでください。
+- 無償で提供しているため、すべての報告にお返事や対応をお約束するものではありません。
+- セキュリティ上の問題は、公開の issue ではなく [SECURITY.md](SECURITY.md) の方法で非公開でお知らせください。
+
 ---
 
 ## English
@@ -102,6 +108,10 @@ Free for personal and commercial use. See [LICENSE.txt](LICENSE.txt) (the Japane
 ### Privacy
 
 Wintavia runs only on your PC and does not send document contents, file names or usage data anywhere.
+
+### Bug reports and requests
+
+Use [Issues](../../issues) and choose "Bug report" or "Feature request". **Issues are public**: do not include company document names, file paths or confidential screenshots. Wintavia is free, so we cannot promise a reply or a fix. Report security issues privately as described in [SECURITY.md](SECURITY.md).
 
 ---
 

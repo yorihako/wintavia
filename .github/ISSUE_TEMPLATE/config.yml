@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: セキュリティ上の問題（非公開） / Security issue (private)
+    url: https://github.com/yorihako/wintavia/security/advisories/new
+    about: 公開の issue ではなく、非公開で報告してください。 / Please report security issues privately.
