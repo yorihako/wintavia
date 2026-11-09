@@ -1,0 +1,144 @@
+Wintavia 利用規約 / Wintavia License Terms
+Copyright (c) 2026 Yorihako Studio. All rights reserved.
+
+（日本語の規約が正文です。英語は参考訳です。 / The Japanese text is the official version. The English text is a translation for reference.）
+
+==============================================================================
+Wintavia 利用規約（日本語）
+==============================================================================
+
+この利用規約（以下「本規約」）は、Yorihako Studio（以下「著作権者」）が提供する
+ソフトウェア「Wintavia」（タブバーのアプリ、Office アドイン、コマンドラインツール
+office-tabs、MCP サーバー、インストーラー、説明書を含みます。以下「本ソフトウェア」）
+の利用条件を定めるものです。本ソフトウェアをインストールまたは利用した時点で、
+本規約に同意したものとみなします。同意できない場合は、利用しないでください。
+
+第1条（利用の許諾）
+  著作権者は、利用者に対し、本ソフトウェアを無償で利用することを許諾します。
+  個人・法人を問わず、また商用・非商用を問わず利用できます。
+  インストールする台数や利用者の人数に制限はありません。
+
+第2条（再配布）
+  利用者は、著作権者が配布したままの状態（改変していないインストーラーまたは
+  配布ファイル）に限り、本ソフトウェアを無償で再配布できます。
+  再配布するときは、本規約と THIRD-PARTY-NOTICES.txt を一緒に配布してください。
+  本ソフトウェアを有償で販売すること、または他の製品の一部として有償で提供することはできません。
+
+第3条（禁止事項）
+  利用者は、次のことをしてはなりません。
+  1. 本ソフトウェアを改変すること、または改変したものを配布すること
+  2. 本ソフトウェアをリバースエンジニアリング、逆コンパイル、逆アセンブルすること
+     （法令によって明示的に認められる範囲を除きます）
+  3. 本ソフトウェアに含まれる著作権表示や本規約を削除・変更すること
+  4. 法令や公序良俗に反する目的で利用すること
+
+第4条（第三者のソフトウェア）
+  本ソフトウェアには、Microsoft Corporation などの第三者が権利を持つソフトウェアが
+  含まれます。それらには THIRD-PARTY-NOTICES.txt に記載した各ライセンスが適用され、
+  本規約より優先します。
+
+第5条（データの扱い）
+  本ソフトウェアは、利用者のパソコンの中だけで動作し、文書の内容・ファイル名・
+  利用状況などの情報を著作権者や第三者に送信しません。
+  設定・お気に入り・履歴は、利用者のパソコンの中にだけ保存します。
+  コマンドラインツールや MCP サーバーを通じた文書の書き換え・保存・閉じる操作は、
+  利用者が明示的に許可した場合にだけ行われます。これらの操作の結果については、
+  許可した利用者が責任を負うものとします。
+
+第6条（無保証）
+  本ソフトウェアは「現状のまま」提供されます。著作権者は、本ソフトウェアに不具合が
+  ないこと、特定の目的に適合すること、第三者の権利を侵害しないことその他一切について、
+  明示・黙示を問わず保証しません。大切な文書は、利用者の責任で保存・バックアップしてください。
+
+第7条（責任の制限）
+  著作権者は、本ソフトウェアの利用または利用できなかったことにより利用者または第三者に
+  生じた損害（文書の消失、業務の中断、逸失利益などを含みます）について、責任を負いません。
+  ただし、著作権者の故意または重大な過失による場合、その他法令により責任を免れることが
+  できない場合はこの限りではありません。
+
+第8条（サポート・更新）
+  著作権者は、本ソフトウェアのサポート、不具合の修正、更新を行う義務を負いません。
+  著作権者は、予告なく本ソフトウェアの提供を変更・終了できます。
+
+第9条（本規約の変更）
+  著作権者は、本規約を変更できます。変更後の規約は、新しい版の本ソフトウェアに
+  同梱した時点から、その版に適用されます。
+
+第10条（商標）
+  Microsoft、Office、Word、Excel、PowerPoint、Windows は、Microsoft Corporation の
+  商標または登録商標です。本ソフトウェアは Microsoft Corporation が提供・保証・
+  推奨するものではありません。
+
+第11条（準拠法・管轄）
+  本規約は日本法に準拠します。本規約または本ソフトウェアに関する紛争は、
+  日本の裁判所を専属的合意管轄裁判所とします。
+
+
+==============================================================================
+Wintavia License Terms (English translation for reference)
+==============================================================================
+
+These License Terms ("Terms") set out the conditions for using the software "Wintavia"
+provided by Yorihako Studio ("Licensor"), including the tab bar application, the Office
+add-ins, the command-line tool office-tabs, the MCP server, the installer and the
+documentation (the "Software"). By installing or using the Software, you agree to these
+Terms. If you do not agree, do not use the Software.
+
+1. License Grant
+   Licensor grants you the right to use the Software free of charge, for personal or
+   business use, commercial or non-commercial. There is no limit on the number of
+   computers or users.
+
+2. Redistribution
+   You may redistribute the Software free of charge only in the form distributed by
+   Licensor (the unmodified installer or distribution files), together with these Terms
+   and THIRD-PARTY-NOTICES.txt. You may not sell the Software or provide it for a fee,
+   including as part of another product.
+
+3. Restrictions
+   You must not:
+   a. modify the Software or distribute modified versions;
+   b. reverse engineer, decompile or disassemble the Software, except to the extent
+      expressly permitted by applicable law;
+   c. remove or alter any copyright notice or these Terms included in the Software;
+   d. use the Software for any unlawful purpose.
+
+4. Third-party Software
+   The Software includes software owned by third parties such as Microsoft Corporation.
+   Such software is subject to the licenses listed in THIRD-PARTY-NOTICES.txt, which
+   prevail over these Terms.
+
+5. Data
+   The Software runs only on your computer and does not send document contents, file
+   names, usage information or any other data to Licensor or to third parties. Settings,
+   favorites and history are stored only on your computer. Changing, saving or closing
+   documents through the command-line tool or the MCP server happens only when you
+   explicitly allow it, and you are responsible for the results of such operations.
+
+6. No Warranty
+   The Software is provided "AS IS". Licensor makes no warranties of any kind, express or
+   implied, including that the Software is free of defects, fit for a particular purpose
+   or non-infringing. You are responsible for saving and backing up your documents.
+
+7. Limitation of Liability
+   Licensor is not liable for any damages arising from the use of, or inability to use,
+   the Software, including loss of documents, business interruption or lost profits,
+   except in cases of Licensor's willful misconduct or gross negligence, or where
+   liability cannot be excluded under applicable law.
+
+8. Support and Updates
+   Licensor has no obligation to provide support, fixes or updates, and may change or
+   discontinue the Software without notice.
+
+9. Changes to These Terms
+   Licensor may change these Terms. Changed Terms apply to a new version of the Software
+   from the time they are included with that version.
+
+10. Trademarks
+   Microsoft, Office, Word, Excel, PowerPoint and Windows are trademarks or registered
+   trademarks of Microsoft Corporation. The Software is not provided, guaranteed or
+   endorsed by Microsoft Corporation.
+
+11. Governing Law and Jurisdiction
+   These Terms are governed by the laws of Japan. The courts of Japan have exclusive
+   jurisdiction over any dispute relating to these Terms or the Software.
