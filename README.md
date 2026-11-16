@@ -49,7 +49,7 @@ Get-FileHash .\Wintavia-Setup-<版>.exe -Algorithm SHA256
 
 ## 利用規約・ライセンス
 
-- 個人・法人、商用・非商用を問わず、無償で利用できます。
+- 個人・法人、商用・非商用を問わず、無料でお使いいただけます。お気に入り・履歴の一覧から直接開ける件数が増える応援版もあります。
 - 利用条件は [LICENSE.txt](LICENSE.txt)（利用規約）をご覧ください。インストールすると利用規約に同意したものとみなします。
 - 同梱している第三者ソフトウェアのライセンスは、インストール先の `THIRD-PARTY-NOTICES.txt`（アプリの「設定」→「アプリの情報」からも開けます）をご覧ください。
 - ソースコードは公開していません。
@@ -90,7 +90,8 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 ## 不具合の報告・要望
 
 - [Issues](../../issues) から「不具合の報告」または「要望」を選んで書いてください。**書いた内容は誰でも見られます。** 会社の文書名・ファイルのパス・画面の機密情報は書かないでください。
-- 無償で提供しているため、すべての報告にお返事や対応をお約束するものではありません。
+- お返事や対応の時期はお約束できませんが、いただいた報告はすべて確認し、改善に役立てます。
+- 公開したくない内容は、メール（support@yorihako.com）でお知らせください。
 - セキュリティ上の問題は、公開の issue ではなく [SECURITY.md](SECURITY.md) の方法で非公開でお知らせください。
 
 ---
@@ -132,7 +133,7 @@ Get-FileHash .\Wintavia-Setup-<version>.exe -Algorithm SHA256
 
 ### License
 
-Free for personal and commercial use. See [LICENSE.txt](LICENSE.txt) (the Japanese text is the official version). By installing, you agree to the license terms. Third-party licenses are in `THIRD-PARTY-NOTICES.txt` in the installation folder. The source code is not published.
+Free to use for personal and commercial purposes. A Supporter edition is also available, which lets you open more files directly from the favorites and history lists. See [LICENSE.txt](LICENSE.txt) (the Japanese text is the official version). By installing, you agree to the license terms. Third-party licenses are in `THIRD-PARTY-NOTICES.txt` in the installation folder. The source code is not published.
 
 ### Privacy
 
@@ -160,7 +161,7 @@ Command line: `& "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-cli.exe" list
 
 ### Bug reports and requests
 
-Use [Issues](../../issues) and choose "Bug report" or "Feature request". **Issues are public**: do not include company document names, file paths or confidential screenshots. Wintavia is free, so we cannot promise a reply or a fix. Report security issues privately as described in [SECURITY.md](SECURITY.md).
+Use [Issues](../../issues) and choose "Bug report" or "Feature request". **Issues are public**: do not include company document names, file paths or confidential screenshots. We cannot promise when we will reply or fix an issue, but we read every report and use it to improve Wintavia. For anything you would rather not post publicly, email support@yorihako.com. Report security issues privately as described in [SECURITY.md](SECURITY.md).
 
 ---
 
