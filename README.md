@@ -73,8 +73,9 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 ```
 
 - Wintavia を起動しておいてください（タブバーを隠していても使えます）。
-- 文書の一覧・読み取り・切り替えは、そのまま使えます。
-- 文書の**書き換え・保存・閉じる**は、タブバーの「設定」→「ほかのツールからの操作」でチェックを入れたときだけ使えます。この許可は AI ツールやコマンドからは変えられません。
+- AI ツールやコマンドから文書を見るには、タブバーの「設定」→「ほかのツールからの操作」で「AI やコマンドから、開いている文書を見られるようにする」にチェックを入れます（最初はオフ）。オンにすると、設定の「AI ツールへの登録…」から上のコマンドをコピーできます。
+- 文書の**書き換え・保存・閉じる**は、さらに「書き換え・保存・閉じるも許可する」にチェックを入れたときだけ使えます。これらの許可は AI ツールやコマンドからは変えられません。
+- AI やコマンドが変えた所は、タブバーの「AI の変更」で一覧でき、戻せるものはそこから戻せます。
 - **AI ツールに読ませた文書の内容は、その AI サービスに送られます。** 会社の文書を扱うときは、社内の決まりを確認してください。Wintavia 自身は外部に送信しません。
 - マクロの実行はできません。
 
@@ -152,8 +153,9 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 ```
 
 - Keep Wintavia running (the tab bar may be hidden).
-- Listing, reading and switching documents work right away.
-- **Changing, saving and closing** documents work only after you allow them in the tab bar: Settings > "Access from other tools". AI tools and the command line cannot change this permission.
+- To let AI tools and the command line see your documents, turn on "Let AI tools and commands see your open documents" in the tab bar: Settings > "Access from other tools" (off by default). Then "Set up your AI tool…" in Settings lets you copy the command above.
+- **Changing, saving and closing** documents also need "Also allow changing, saving and closing documents". AI tools and the command line cannot change these permissions.
+- Changes made by AI tools and commands are listed under "AI changes" in the tab bar, where you can undo the ones that can be undone.
 - **Document contents read by an AI tool are sent to that AI service.** Check your company's rules before using it with work documents. Wintavia itself sends nothing.
 - Macros cannot be run.
 
