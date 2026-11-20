@@ -2,7 +2,10 @@
 
 Word・Excel・PowerPoint で開いている文書を、画面の左の細いタブバーにまとめて表示し、クリックで切り替えられる Windows アプリです。
 
-*English follows Japanese.*
+**紹介サイト: [wintavia.yorihako.com/ja/](https://wintavia.yorihako.com/ja/)**（画面とできることの紹介）
+**Website (English): [wintavia.yorihako.com](https://wintavia.yorihako.com/)** — *English follows Japanese.*
+
+<p align="center"><a href="https://wintavia.yorihako.com/ja/"><img src="https://wintavia.yorihako.com/assets/screenshots/ja/tabs.png" alt="Wintavia のタブバーを広げた Word。Word・Excel・PowerPoint の文書が並んでいる" width="820"></a></p>
 
 ## できること
 
@@ -49,7 +52,7 @@ Get-FileHash .\Wintavia-Setup-<版>.exe -Algorithm SHA256
 
 ## 利用規約・ライセンス
 
-- 個人・法人、商用・非商用を問わず、無料でお使いいただけます。お気に入り・履歴の一覧から直接開ける件数が増える応援版もあります。
+- 個人・法人、商用・非商用を問わず、無料でお使いいただけます。
 - 利用条件は [LICENSE.txt](LICENSE.txt)（利用規約）をご覧ください。インストールすると利用規約に同意したものとみなします。
 - 同梱している第三者ソフトウェアのライセンスは、インストール先の `THIRD-PARTY-NOTICES.txt`（アプリの「設定」→「アプリの情報」からも開けます）をご覧ください。
 - ソースコードは公開していません。
@@ -75,7 +78,7 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 - Wintavia を起動しておいてください（タブバーを隠していても使えます）。
 - AI ツールやコマンドから文書を見るには、タブバーの「設定」→「ほかのツールからの操作」で「AI やコマンドから、開いている文書を見られるようにする」にチェックを入れます（最初はオフ）。オンにすると、設定の「AI ツールへの登録…」から上のコマンドをコピーできます。
 - 文書の**書き換え・保存・閉じる**は、さらに「書き換え・保存・閉じるも許可する」にチェックを入れたときだけ使えます。これらの許可は AI ツールやコマンドからは変えられません。
-- AI やコマンドが変えた所は、タブバーの「AI の変更」で一覧でき、戻せるものはそこから戻せます。
+- AI やコマンドが変えた所は、タブバーの「AI の変更」で、シート・スライドごとに変更前と変更後を確かめられます（押すとその場所へ移ります）。Word では、AI の変更は変更履歴にも残ります。戻したいときは、AI に頼んでください。
 - **AI ツールに読ませた文書の内容は、その AI サービスに送られます。** 会社の文書を扱うときは、社内の決まりを確認してください。Wintavia 自身は外部に送信しません。
 - マクロの実行はできません。
 
@@ -100,6 +103,10 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 ## English
 
 Wintavia shows the Word, Excel and PowerPoint documents you have open in one slim tab bar on the left of the screen, so you can switch between them with a click.
+
+**Website: [wintavia.yorihako.com](https://wintavia.yorihako.com/)** (screens and features)
+
+<p align="center"><a href="https://wintavia.yorihako.com/"><img src="https://wintavia.yorihako.com/assets/screenshots/en/tabs.png" alt="Word with the Wintavia tab bar opened, listing Word, Excel and PowerPoint documents" width="820"></a></p>
 
 ### Features
 
@@ -134,7 +141,7 @@ Get-FileHash .\Wintavia-Setup-<version>.exe -Algorithm SHA256
 
 ### License
 
-Free to use for personal and commercial purposes. A Supporter edition is also available, which lets you open more files directly from the favorites and history lists. See [LICENSE.txt](LICENSE.txt) (the Japanese text is the official version). By installing, you agree to the license terms. Third-party licenses are in `THIRD-PARTY-NOTICES.txt` in the installation folder. The source code is not published.
+Free to use for personal and commercial purposes. See [LICENSE.txt](LICENSE.txt) (the Japanese text is the official version). By installing, you agree to the license terms. Third-party licenses are in `THIRD-PARTY-NOTICES.txt` in the installation folder. The source code is not published.
 
 ### Privacy
 
@@ -155,7 +162,7 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 - Keep Wintavia running (the tab bar may be hidden).
 - To let AI tools and the command line see your documents, turn on "Let AI tools and commands see your open documents" in the tab bar: Settings > "Access from other tools" (off by default). Then "Set up your AI tool…" in Settings lets you copy the command above.
 - **Changing, saving and closing** documents also need "Also allow changing, saving and closing documents". AI tools and the command line cannot change these permissions.
-- Changes made by AI tools and commands are listed under "AI changes" in the tab bar, where you can undo the ones that can be undone.
+- Changes made by AI tools and commands are listed under "AI changes" in the tab bar, sheet by sheet and slide by slide, with before and after (click one to go there). In Word, AI edits are also recorded with Track Changes. To revert a change, ask your AI tool.
 - **Document contents read by an AI tool are sent to that AI service.** Check your company's rules before using it with work documents. Wintavia itself sends nothing.
 - Macros cannot be run.
 
@@ -166,5 +173,7 @@ Command line: `& "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-cli.exe" list
 Use [Issues](../../issues) and choose "Bug report" or "Feature request". **Issues are public**: do not include company document names, file paths or confidential screenshots. We cannot promise when we will reply or fix an issue, but we read every report and use it to improve Wintavia. For anything you would rather not post publicly, email support@yorihako.com. Report security issues privately as described in [SECURITY.md](SECURITY.md).
 
 ---
+
+**[wintavia.yorihako.com](https://wintavia.yorihako.com/)** · **[日本語のサイト](https://wintavia.yorihako.com/ja/)**
 
 Copyright (c) 2026 Yorihako Studio
