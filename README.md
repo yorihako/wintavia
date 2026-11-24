@@ -2,10 +2,10 @@
 
 Word・Excel・PowerPoint で開いている文書を、画面の左の細いタブバーにまとめて表示し、クリックで切り替えられる Windows アプリです。
 
-**紹介サイト: [wintavia.yorihako.com/ja/](https://wintavia.yorihako.com/ja/)**（画面とできることの紹介）
+**紹介サイト: [wintavia.yorihako.com/ja/](https://wintavia.yorihako.com/ja/)**（実演の動画と、できることの紹介）
 **Website (English): [wintavia.yorihako.com](https://wintavia.yorihako.com/)** — *English follows Japanese.*
 
-<p align="center"><a href="https://wintavia.yorihako.com/ja/"><img src="https://wintavia.yorihako.com/assets/screenshots/ja/tabs.png" alt="Wintavia のタブバーを広げた Word。Word・Excel・PowerPoint の文書が並んでいる" width="820"></a></p>
+<p align="center"><a href="https://wintavia.yorihako.com/ja/"><img src="https://wintavia.yorihako.com/assets/video/hero-ja.png" alt="Wintavia の実演の動画の一場面。タブバーにマウスを乗せると、開いているファイルが保存場所とともに並ぶ（押すと紹介サイトで動画を再生）" width="820"></a></p>
 
 ## できること
 
@@ -104,9 +104,9 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 
 Wintavia shows the Word, Excel and PowerPoint documents you have open in one slim tab bar on the left of the screen, so you can switch between them with a click.
 
-**Website: [wintavia.yorihako.com](https://wintavia.yorihako.com/)** (screens and features)
+**Website: [wintavia.yorihako.com](https://wintavia.yorihako.com/)** (demo video and features)
 
-<p align="center"><a href="https://wintavia.yorihako.com/"><img src="https://wintavia.yorihako.com/assets/screenshots/en/tabs.png" alt="Word with the Wintavia tab bar opened, listing Word, Excel and PowerPoint documents" width="820"></a></p>
+<p align="center"><a href="https://wintavia.yorihako.com/"><img src="https://wintavia.yorihako.com/assets/video/hero-en.png" alt="A scene from the Wintavia demo video: pointing at the tab bar lists your open files with their folders (click to play the video on the website)" width="820"></a></p>
 
 ### Features
 
