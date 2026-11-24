@@ -5,7 +5,7 @@ Word・Excel・PowerPoint で開いている文書を、画面の左の細いタ
 **紹介サイト: [wintavia.yorihako.com/ja/](https://wintavia.yorihako.com/ja/)**（実演の動画と、できることの紹介）
 **Website (English): [wintavia.yorihako.com](https://wintavia.yorihako.com/)** — *English follows Japanese.*
 
-<p align="center"><a href="https://wintavia.yorihako.com/ja/"><img src="https://wintavia.yorihako.com/assets/video/hero-ja.png" alt="Wintavia の実演の動画の一場面。タブバーにマウスを乗せると、開いているファイルが保存場所とともに並ぶ（押すと紹介サイトで動画を再生）" width="820"></a></p>
+<p align="center"><a href="https://wintavia.yorihako.com/ja/"><img src="https://wintavia.yorihako.com/assets/video/hero-ja.png" alt="Wintavia の実演の動画の一場面。タブバーに、開いている Word・Excel・PowerPoint のファイルが一覧で並ぶ（押すと紹介サイトで動画を再生）" width="820"></a></p>
 
 ## できること
 
@@ -106,7 +106,7 @@ Wintavia shows the Word, Excel and PowerPoint documents you have open in one sli
 
 **Website: [wintavia.yorihako.com](https://wintavia.yorihako.com/)** (demo video and features)
 
-<p align="center"><a href="https://wintavia.yorihako.com/"><img src="https://wintavia.yorihako.com/assets/video/hero-en.png" alt="A scene from the Wintavia demo video: pointing at the tab bar lists your open files with their folders (click to play the video on the website)" width="820"></a></p>
+<p align="center"><a href="https://wintavia.yorihako.com/"><img src="https://wintavia.yorihako.com/assets/video/hero-en.png" alt="A scene from the Wintavia demo video: the tab bar lists your open Word, Excel and PowerPoint files (click to play the video on the website)" width="820"></a></p>
 
 ### Features
 
