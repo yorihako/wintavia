@@ -59,7 +59,7 @@ Get-FileHash .\Wintavia-Setup-<版>.exe -Algorithm SHA256
 
 ## プライバシー
 
-Wintavia はパソコンの中だけで動作し、文書の内容・ファイル名・利用状況などを外部に送信しません。設定・お気に入り・履歴はパソコンの中にだけ保存します。
+Wintavia はパソコンの中だけで動作し、文書の内容・ファイル名・利用状況などを外部に送信しません。設定・お気に入り・履歴と、AI やコマンドが変えた所の記録（14 日分。変更前と変更後の抜粋を含みます）は、パソコンの中にだけ保存します。記録は設定から消せます。
 
 ## AI ツールとつなぐ（上級者向け）
 
@@ -78,7 +78,7 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 - Wintavia を起動しておいてください（タブバーを隠していても使えます）。
 - AI ツールやコマンドから文書を見るには、タブバーの「設定」→「ほかのツールからの操作」で「AI やコマンドから、開いている文書を見られるようにする」にチェックを入れます（最初はオフ）。オンにすると、設定の「AI ツールへの登録…」から上のコマンドをコピーできます。
 - 文書の**書き換え・保存・閉じる**は、さらに「書き換え・保存・閉じるも許可する」にチェックを入れたときだけ使えます。これらの許可は AI ツールやコマンドからは変えられません。
-- AI やコマンドが変えた所は、タブバーの「AI の変更」で、シート・スライドごとに変更前と変更後を確かめられます（押すとその場所へ移ります）。Word では、AI の変更は変更履歴にも残ります。戻したいときは、AI に頼んでください。
+- AI やコマンドが変えた所は、タブバーの「AI の変更」で、シート・スライドごとに変更前と変更後を確かめられます（押すとその場所へ移ります）。14 日分の履歴が残り、閉じた文書も「開いて見る」で確かめられます。Word では、AI の変更は変更履歴にも残ります。戻したいときは、AI に頼んでください。
 - **AI ツールに読ませた文書の内容は、その AI サービスに送られます。** 会社の文書を扱うときは、社内の決まりを確認してください。Wintavia 自身は外部に送信しません。
 - マクロの実行はできません。
 
@@ -145,7 +145,7 @@ Free to use for personal and commercial purposes. See [LICENSE.txt](LICENSE.txt)
 
 ### Privacy
 
-Wintavia runs only on your PC and does not send document contents, file names or usage data anywhere.
+Wintavia runs only on your PC and does not send document contents, file names or usage data anywhere. Settings, favorites, history and the record of changes made by AI tools and commands (14 days, including short before/after excerpts) are stored only on your PC. You can delete the record in Settings.
 
 ### Connect AI tools (advanced)
 
@@ -162,7 +162,7 @@ codex mcp add wintavia -- "$env:LOCALAPPDATA\Programs\Wintavia\app\wintavia-mcp.
 - Keep Wintavia running (the tab bar may be hidden).
 - To let AI tools and the command line see your documents, turn on "Let AI tools and commands see your open documents" in the tab bar: Settings > "Access from other tools" (off by default). Then "Set up your AI tool…" in Settings lets you copy the command above.
 - **Changing, saving and closing** documents also need "Also allow changing, saving and closing documents". AI tools and the command line cannot change these permissions.
-- Changes made by AI tools and commands are listed under "AI changes" in the tab bar, sheet by sheet and slide by slide, with before and after (click one to go there). In Word, AI edits are also recorded with Track Changes. To revert a change, ask your AI tool.
+- Changes made by AI tools and commands are listed under "AI changes" in the tab bar, sheet by sheet and slide by slide, with before and after (click one to go there). Changes are kept for 14 days; for a closed document, choose "Open and show". In Word, AI edits are also recorded with Track Changes. To revert a change, ask your AI tool.
 - **Document contents read by an AI tool are sent to that AI service.** Check your company's rules before using it with work documents. Wintavia itself sends nothing.
 - Macros cannot be run.
 
